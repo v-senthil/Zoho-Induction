@@ -1,6 +1,4 @@
-// A C++ Program to Implement and Play Minesweeper 
-
-#include<stdio.h>
+ #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
 #include<string.h>
@@ -233,7 +231,6 @@ void placeMines(int mines[][2], char realBoard[][MAXSIDE])
 	return; 
 } 
 
-// A Function to initialise the game 
 void initialise(char realBoard[][MAXSIDE], char myBoard[][MAXSIDE]) 
 {  
 	srand(time (NULL)); 
